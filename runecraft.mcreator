@@ -1,9 +1,27 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "TerraElmLog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "terra_elm_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/runecraft/models/item/terra_elm_log.json",
+          "src/main/resources/assets/runecraft/models/block/terra_elm_log.json",
+          "src/main/java/net/mcreator/runecraft/block/TerraElmLogBlock.java",
+          "src/main/resources/assets/runecraft/blockstates/terra_elm_log.json"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "block.runecraft.terra_elm_log": "Terra Elm Log"
+    }
   },
   "foldersRoot": {
     "name": "~",

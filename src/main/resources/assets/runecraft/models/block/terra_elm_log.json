@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "runecraft:block/dirtree_log",
+    "up": "runecraft:block/dirtree_log",
+    "north": "runecraft:block/dirtree_bark",
+    "east": "runecraft:block/dirtree_bark",
+    "south": "runecraft:block/dirtree_bark",
+    "west": "runecraft:block/dirtree_bark",
+    "particle": "runecraft:block/dirtree_log"
+  },
+  "render_type": "solid"
+}
