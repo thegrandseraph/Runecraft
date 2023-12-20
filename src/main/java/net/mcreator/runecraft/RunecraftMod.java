@@ -29,10 +29,6 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
-import net.mcreator.runecraft.init.RunecraftModTabs;
-import net.mcreator.runecraft.init.RunecraftModItems;
-import net.mcreator.runecraft.init.RunecraftModBlocks;
-
 import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
@@ -50,12 +46,6 @@ public class RunecraftMod {
 	public RunecraftMod() {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-
-		RunecraftModBlocks.REGISTRY.register(bus);
-
-		RunecraftModItems.REGISTRY.register(bus);
-
-		RunecraftModTabs.REGISTRY.register(bus);
 
 	}
 
